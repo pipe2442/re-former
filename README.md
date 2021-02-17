@@ -3,7 +3,7 @@
 ## PROJECT:FORMS - [Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
-This project's intention was to create data modeling i.e. writing ````data, associations, and validations```` to building light weight Reddit clone.
+This project's intention was to build forms using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
 ## Built With
 
