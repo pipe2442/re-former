@@ -1,6 +1,6 @@
 # Ruby On Rails PROJECT:FORMS
 # 
-## Building with active record - [Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
+## PROJECT:FORMS - [Odin Project](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
 This project's intention was to create data modeling i.e. writing ````data, associations, and validations```` to building light weight Reddit clone.
