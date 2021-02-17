@@ -1,5 +1,6 @@
 <h1> Sign up here </h1>
-
+<%
+=begin%>
     <h1> Sign up here <h1>
 
     <form action= "/users" method="get" accept-charset="UTF-8">
@@ -16,9 +17,10 @@
 
         <input name="submit" type="submit" value="Submit"/>
     </form>
+    <% 
+=end%>
+   
 
-<%
-=begin%>
 <%= form_with model: @user do |form| %>
     <%= label_tag(:username, "Username:") %><br>
     <%= form.text_field :username %><br><br>
@@ -28,5 +30,3 @@
     <%= form.password_field :password %><br><br>
     <%= form.submit :Submit %>
 <% end %>
-<% 
-=end%>
