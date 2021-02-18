@@ -3,7 +3,7 @@
 =begin%>
     <h1> Sign up here <h1>
 
-    <form action= "/users" method="post" accept-charset="UTF-8">
+    <form action= "/users" method="get" accept-charset="UTF-8">
         <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>"/>
         
         <label for="username">Username:</label><br>
@@ -17,7 +17,17 @@
 
         <input name="submit" type="submit" value="Submit"/>
     </form>
-<% 
+
+    <%= form_tag('/users') do %>
+        <%= label_tag(:username, "Username:") %>
+        <%= text_field_tag(:username) %>
+        <%= label_tag(:email, "Email:") %>
+        <%= email_field_tag(:user, :email) %>
+        <%= label_tag(:password, "Password:") %>
+        <%= password_field_tag(:password) %>
+        <%= submit_tag("Submit") %>
+    <% end %> 
+<%
 =end%>
 
 <%= form_with model: @user do |form| %>
