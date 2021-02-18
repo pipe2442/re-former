@@ -20,8 +20,8 @@
     <% 
 =end%>
    
-<%= form_with model: @user do |form| %>
-    <%= label_tag(:username, "Username:") %><br>
+<%= form_with model: @users do |form| %>
+    <%= form.label(:username, "Username: ")%><br>
     <%= form.text_field :username %><br><br>
     <%= label_tag(:email, "email:") %><br>
     <%= form.email_field :email %><br><br>
@@ -29,3 +29,15 @@
     <%= form.password_field :password %><br><br>
     <%= form.submit :Edit %>
 <% end %>
+
+<% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
