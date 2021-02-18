@@ -26,9 +26,9 @@ This project's intention was to build forms using nearly-pure HTML and then grad
 - **[Install Git on your machine.](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)**
 - Install Node.js and Yarn. According to the official yarn website, it is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
 Once you have npm installed you can run the following both to install and upgrade Yarn:
-''''
+```
 npm install --global yarn
-''''
+```
 
 Once you have npm installed you can run the following both to install and upgrade Yarn:
 ### Optional
