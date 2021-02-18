@@ -42,11 +42,11 @@ npm install --global yarn
 - Open your terminal.
 - Run ``` git clone https://github.com/pipe2442/re-former.git ```.
 - Enter root folder with command ``` cd re-former ```.
-- run bundle install to install the dependencies
+- run ```bundle install``` to install the dependencies
 - run bin/rails db:migrate to migrate the database
-- In the terminal from the root folder, type ``` rails s ``` and run the browser to display the project. 
-- To create a new user, go to: /users/new
-- To edit an existing user, go to: /users//edit
+- In the terminal from the root folder, type ``` rails s ``` and type localhost:3000/ on the browser to display the project. 
+- To create a new user, go to: localhost:3000/users/new
+- To edit an existing user, go to: localhost:3000//users//edit
 - Replace the content inside the angle brackets with the appropiate values
 ## Authors
 
