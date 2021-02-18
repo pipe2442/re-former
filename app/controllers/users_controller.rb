@@ -4,7 +4,7 @@ class UsersController < ApplicationController
     end
 
     def edit
-      @user = User.find(params[:id])
+        @user = User.find_by(id:params[:id])
     end
 
     def create
