@@ -30,7 +30,6 @@ Once you have npm installed you can run the following both to install and upgrad
 npm install --global yarn
 ```
 
-Once you have npm installed you can run the following both to install and upgrade Yarn:
 ### Optional
 
 - [Rubocop](https://github.com/microverseinc/linters-config/tree/master/ruby). 
@@ -43,7 +42,12 @@ Once you have npm installed you can run the following both to install and upgrad
 - Open your terminal.
 - Run ``` git clone https://github.com/pipe2442/re-former.git ```.
 - Enter root folder with command ``` cd re-former ```.
+- run bundle install to install the dependencies
+- run bin/rails db:migrate to migrate the database
 - In the terminal from the root folder, type ``` rails s ``` and run the browser to display the project. 
+- To create a new user, go to: /users/new
+- To edit an existing user, go to: /users//edit
+- Replace the content inside the angle brackets with the appropiate values
 ## Authors
 
 👤 **Luis Felipe Angulo Torres**
