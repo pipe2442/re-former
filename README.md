@@ -4,7 +4,8 @@
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
 This project's intention was to build forms using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
-
+![screenshot](./screenshot.png)
+![screenshot](./screenshot2.png)
 ## Built With
 
 - [Ruby](https://www.ruby-lang.org/en/).
