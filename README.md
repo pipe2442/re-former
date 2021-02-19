@@ -5,6 +5,9 @@
 
 This project's intention was to build forms using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
+![Screenshot_2021-02-19_05-39-43](https://user-images.githubusercontent.com/70150423/108462919-594eab00-7275-11eb-8300-99f328104472.png)
+![Screenshot_2021-02-19_05-41-56](https://user-images.githubusercontent.com/70150423/108462934-61a6e600-7275-11eb-8341-4c3332375855.png)
+
 ## Built With
 
 - [Ruby](https://www.ruby-lang.org/en/).
